@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>typing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="section">
+        <nav class="navbar">
+            <div class="logo">
+                <h3>
+                    <span style="--i:1;">T</span>
+                    <span style="--i:2;">y</span>
+                    <span style="--i:3;">p</span>
+                    <span style="--i:4;">i</span>
+                    <span style="--i:5;">n</span>
+                    <span style="--i:6;">g</span>
+                </h3>
+            </div>
+
+            <div class="menu">
+
+                <a href="#" id="time">time</a>
+                <a href="#" id="Languages">Languages</a>
+                <a href="#">Home</a>
+                <a href="#">about</a>
+                <i id="closebar" class="fa-solid fa-xmark"></i>
+
+            </div>
+            <div class="icon">
+                <a href="#" id="openBar"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <!-- <p class="copyright-text">&copy; 2022 the searthor</p> -->
+
+        </nav>
+        <div class="Languages">
+            <div class="menu">
+                <a href="#" class="active" id="English">English</a>
+                <a href="#" id="lao">Lao</a>
+            </div>
+        </div>
+
+        <div class="timer">
+            <div class="menu">
+                <a href="#" id="time30">30s</a>
+                <a href="#" id="time60">60s</a>
+                <a href="#" id="time120">120s</a>
+            </div>
+        </div>
+
+
+
+        <h3 class="heading">Test your typing skills</h3>
+        <!-- <div class="animation">
+            <div class="affect affect-1">A</div>
+            <div class="affect affect-2">B</div>
+            <div class="affect affect-3">C</div>
+
+        </div> -->
+
+
+
+
+        <div class="wrapper">
+            <input type="text" class="input-field">
+            <div class="content-box">
+                <div class="content">
+                    <ul class="result-details">
+                        <li class="time">
+                            <p>Time :</p>
+                            <span><b id="minute">0</b> <b id="seconds">0</b>s</span>
+                        </li>
+                        <li class="mistake">
+                            <p>Mistakes:</p>
+                            <span>0</span>
+                        </li>
+                        <li class="wpm">
+                            <p>WPM:</p>
+                            <span>0 wpm</span>
+                        </li>
+                        <li class="cpm">
+                            <p>CPM:</p>
+                            <span>0</span>
+                        </li>
+                    </ul>
+                    <!-- <button>Try Again</button> -->
+                </div>
+                <div class="typing-text">
+                    <p></p>
+                </div>
+
+                <a id="reload"><i class="fa-solid fa-arrows-rotate"></i> </a>
+
+            </div>
+        </div>
+    </section>
+    <script src="paragraphs.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
